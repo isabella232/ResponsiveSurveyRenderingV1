@@ -6,6 +6,10 @@ export default class HiddenQuestionView {
         this._container = $(`#${this._question.id}`);
     }
 
+    get id() {
+        return this._question.id;
+    }
+
     render(){
         this._container.find('.confirmit-hidden-input').remove();
         const formValues = Object.entries(this._question.formValues);

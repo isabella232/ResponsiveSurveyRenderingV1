@@ -12,6 +12,7 @@ export default class QuestionViewSettings {
         this._messages = {
             noResponse: surveyInfo.messages.noResponseMessage,
         }
+        this._renderingVersion = surveyInfo.renderingVersion;
     }
 
     /**
@@ -54,5 +55,14 @@ export default class QuestionViewSettings {
      */
     get messages() {
         return this._messages;
+    }
+
+    /**
+     * Survey rendering version
+     * @type {string}
+     * @readonly
+     */
+    get renderingVersion() {
+        return this._renderingVersion;
     }
 }

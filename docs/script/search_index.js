@@ -2148,9 +2148,21 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
+    "app/api/models/survey-info.js~surveyinfo#renderingversion",
+    "class/app/api/models/survey-info.js~SurveyInfo.html#instance-get-renderingVersion",
+    "app/api/models/survey-info.js~SurveyInfo#renderingVersion",
+    "member"
+  ],
+  [
     "app/api/models/survey-info.js~surveyinfo#surveychannel",
     "class/app/api/models/survey-info.js~SurveyInfo.html#instance-get-surveyChannel",
     "app/api/models/survey-info.js~SurveyInfo#surveyChannel",
+    "member"
+  ],
+  [
+    "app/api/models/survey-info.js~surveyinfo#surveyid",
+    "class/app/api/models/survey-info.js~SurveyInfo.html#instance-get-surveyId",
+    "app/api/models/survey-info.js~SurveyInfo#surveyId",
     "member"
   ],
   [
@@ -2158,6 +2170,12 @@ window.esdocSearchIndex = [
     "file/app/api/models/test-navigator-question.js.html",
     "app/api/models/test-navigator-question.js",
     "file"
+  ],
+  [
+    "app/api/models/test-navigator-question.js~testnavigatorquestion#entityid",
+    "class/app/api/models/test-navigator-question.js~TestNavigatorQuestion.html#instance-get-entityId",
+    "app/api/models/test-navigator-question.js~TestNavigatorQuestion#entityId",
+    "member"
   ],
   [
     "app/api/models/test-navigator-question.js~testnavigatorquestion#id",
@@ -2193,6 +2211,12 @@ window.esdocSearchIndex = [
     "app/api/models/test-navigator.js~testnavigator#currentquestionid",
     "class/app/api/models/test-navigator.js~TestNavigator.html#instance-get-currentQuestionId",
     "app/api/models/test-navigator.js~TestNavigator#currentQuestionId",
+    "member"
+  ],
+  [
+    "app/api/models/test-navigator.js~testnavigator#extquicktestcommentsenabled",
+    "class/app/api/models/test-navigator.js~TestNavigator.html#instance-get-extQuicktestCommentsEnabled",
+    "app/api/models/test-navigator.js~TestNavigator#extQuicktestCommentsEnabled",
     "member"
   ],
   [

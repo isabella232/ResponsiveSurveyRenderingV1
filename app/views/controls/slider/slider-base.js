@@ -389,7 +389,7 @@ export default class SliderBase {
     }
 
     _onDocumentMouseMove(event) {
-        if (!this._isSliding) {
+        if (!this._isSliding || this._readOnly) {
             return;
         }
 
